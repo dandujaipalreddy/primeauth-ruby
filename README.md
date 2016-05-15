@@ -22,11 +22,12 @@ It takes the following parameters  <br>
 `ip = my_string[/[^,]+/]` <br>
 4. `token` - API KEY, can be obtained from the client dashboard <br>
 5. `secret` - API Secret, can be obtatined from client dashboard <br>
-6. `comments` - If you want to add something that the users should see like a message, add it here. <br>
+6. `client_id` - Client ID can be obtained from client dashboard <br>
+7. `comments` - If you want to add something that the users should see like a message, add it here. <br>
 
 #####USAGE: 
 
-`var1 = Primeauth.createAuth("hi@primeauth.com","none","127.0.0.1","123","2134","This is a test Request")`<br
+`var1 = Primeauth.createAuth("hi@primeauth.com","none","127.0.0.1","123","2134","2","This is a test Request")`<br
 <br>
 Store the response in a variable because this is used to check the response of the auth <br>
 
